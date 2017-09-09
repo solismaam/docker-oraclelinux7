@@ -9,6 +9,7 @@ RUN yum install -y https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.n
         ansible \
         curl \
         git \
+        java-1.8.0-openjdk-headless \
         python-requests \
         tree \
         vim \ 
