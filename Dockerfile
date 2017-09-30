@@ -12,9 +12,9 @@ RUN yum install -y https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.n
         java-1.8.0-openjdk-headless \
         python-pip \
         python-requests \
+        python-virtualenv \
         tree \
         vim \ 
-        virtualenv \
         wget && \
     yum clean all && \
     rm -rf /var/cache/yum
