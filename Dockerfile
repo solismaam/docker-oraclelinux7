@@ -13,6 +13,7 @@ RUN yum install -y https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.n
         python-pip \
         python-requests \
         python-virtualenv \
+        python-virtualenvwrapper \
         tree \
         vim \ 
         wget && \
