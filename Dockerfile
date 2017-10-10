@@ -10,6 +10,8 @@ RUN yum install -y https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.n
         curl \
         git \
         java-1.8.0-openjdk-headless \
+        libxml2-devel \
+        libxslt-devel \
         python-pip \
         python-requests \
         python-virtualenv \
